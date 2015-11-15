@@ -1,0 +1,13 @@
+{
+    "name": "root/swatkats",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sudar Abisheck",
+            "email": "sudarabisheck@gmail.com"
+        }
+    ],
+    "require": {
+      "mandrill/mandrill": "1.0.*" 
+    }
+}
