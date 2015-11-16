@@ -6,8 +6,8 @@
 require __DIR__ . '/vendor/autoload.php';
 
 //Change only these two values
-$_SWAT_EMAIL="sudarabisheck@gmail.com";
-$_SWAT_NAME="Sudar Abisheck";
+$_SWAT_EMAIL="vrbalaji16@gmail.com";
+$_SWAT_NAME="BALAJI VR REDDY";
 
 if(!(isset($_POST)) || ($_POST['FNAME']==null || $_POST['LNAME']==null || $_POST['EMAIL']==null || $_POST['MOBILE1']==null || $_POST['MMERGE5']==null|| $_POST['ADDRESS']==null|| $_POST['CITY']==null|| $_POST['STATE']==null|| $_POST['COUNTRY']==null|| $_POST['PINCODE']==null|| $_FILES['CV']['tmp_name']==null|| $_POST['EXPSALARY']==null))
   die("<h1>ERROR : Incomplete Request</h1><p>Please fill in all Fields.</p>");
