@@ -247,7 +247,7 @@
 
             <script type="text/javascript" charset="utf-8">
               $("#swatvideo").on("click",function(){
-                $('#swatvideo').get(0).play();
+                $(this).get(0).paused ? $(this).get(0).play() : $(this).get(0).pause();
               });
             </script>
 
