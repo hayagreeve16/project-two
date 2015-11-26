@@ -34,6 +34,7 @@
         position: static !important;
         width: 100%;
       }
+
     </style>
 
     <meta charset="utf-8">
@@ -69,8 +70,6 @@
     <script type="text/javascript" src="wp-content/themes/newAssets/js/jquery.mobile.custom.min.js"></script>
     <script type="text/javascript" src="wp-content/themes/newAssets/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="wp-content/themes/newAssets/js/waypoints.min.js"></script>
-    <script type="text/javascript" src="wp-content/themes/newAssets/js/isotope.pkgd.min.js"></script>
-    <script type="text/javascript" src="wp-content/themes/newAssets/js/greensock/TimelineMax.min.js"></script>
     <script type="text/javascript" src="wp-content/themes/newAssets/js/jquery.scrollmagic.min.js"></script>
     <script type="text/javascript" src="wp-content/themes/newAssets/js/jquery.fittext.js"></script>
 
@@ -176,6 +175,9 @@
         </div>
         <!-- Title Block -->
 
+        <div style="width:100%; padding:20px;">
+
+        </div>
         <!--Section 2 -->
         <div class="container-wrapper section-2-wrapper">
           <div class="container">
@@ -192,9 +194,9 @@
                   <div class="sec2-content col-xs-12 col-sm-12 col-md-5 col-sm-offset-0 col-md-offset-1 col-sm-pull-0 col-md-pull-6">
                     <div class="sec2-content-block">
                       <h2>Building the,Smart Autonomous</h2>
-                    <p style="font-size:1em">Swaayatt is building the best smart car in the country and not just a good-enough Smart car.<br><br>
-                      A car which can out-manual driving system counterparts, changes up over a short break, has a Smart neural system to immortal the journey.</p>
-                  </div>
+                      <p style="font-size:1em">Swaayatt is building the best smart car in the country and not just a good-enough Smart car.<br><br>
+                        A car which can out-manual driving system counterparts, changes up over a short break, has a Smart neural system to immortal the journey.</p>
+                    </div>
                   </div>
 
                 </div>
@@ -245,11 +247,15 @@
                     <p></p>
                   </div>
 
-            <script type="text/javascript" charset="utf-8">
-              $("#swatvideo").on("click",function(){
-                $(this).get(0).paused ? $(this).get(0).play() : $(this).get(0).pause();
-              });
-            </script>
+                  <script type="text/javascript" charset="utf-8">
+                    $("#swatvideo").on("click",function(){
+                      $(this).get(0).paused ? $(this).get(0).play() : $(this).get(0).pause();
+                    });
+
+                    $(window).load(function(){
+                      $(".section-2-wrapper").addClass("is-visible"); 
+                    });
+                  </script>
 
                 </body>
               </html>
