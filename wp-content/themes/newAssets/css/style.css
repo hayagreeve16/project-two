@@ -88,9 +88,9 @@ body {
 /* line 65, ../sass/style.scss */
 .nav-container {
   background: #00B2B2;
-}
 
 /* line 68, ../sass/style.scss */
+}
 .hero-unit {
   background: #2C3E50;
   /* background: 
@@ -111,15 +111,15 @@ body {
   
   
   
-  -ms-linear-gradient(90deg, #fa7a2c 10%, #ffcc33 90%);
+  -ms-linear-gradient(90deg, #2c3e50 10%, #2c3e50 90%);
   background: 
   
   
   
   
   
-  -o-linear-gradient(90deg, #fa7a2c 10%, #ffcc33 90%);
-  /* background: linear-gradient(0deg, #fa7a2c 10%, #ffcc33 90%); */
+  -o-linear-gradient(90deg, #2c3e50 10%, #2c3e50 90%);
+  /* background: linear-gradient(0deg, #2c3e50 10%, #2c3e50 90%); */
 }
 
 /* line 77, ../sass/style.scss */
