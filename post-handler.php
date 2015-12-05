@@ -62,7 +62,7 @@ if($_POST['WORKEXP']!=null)
   $form_data = $form_data."\nWork Experience : ".$_POST['WORKEXP'];
 $form_data = $form_data."\nExpected Salary : ".$_POST['EXPSALARY'];
 if($_POST['COMMENTS']!=null)
-  $form_data = $form_data."\nComments :  ".$_POST['COMMENTS'];
+  $form_data = $form_data."\nComments :  ".$_POST['PURPOSE'];
 
 $form_data = base64_encode($form_data);
 
